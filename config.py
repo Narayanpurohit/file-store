@@ -35,8 +35,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "techvjbotz")
+DB_URI = environ.get("DB_URI", "mongodb://n57972480:z0spA170r2d2WxPJ@ac-hvcsphp-shard-00-00.c5txs1y.mongodb.net:27017,ac-hvcsphp-shard-00-01.c5txs1y.mongodb.net:27017,ac-hvcsphp-shard-00-02.c5txs1y.mongodb.net:27017/?replicaSet=atlas-dgvngn-shard-0&ssl=true&authSource=admin&retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "filestore")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
